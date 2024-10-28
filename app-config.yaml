@@ -25,8 +25,8 @@ auth:
   providers:
     github:
       production:
-        clientId: Iv23li95BX2pCzM7wdJ3
-        clientSecret: 1a3c56c90233235706bf89007d55428d4353b924
+        clientId: ${GITHUB_CLIENT_ID}
+        clientSecret: ${GITHUB_CLIENT_SECRET}
 
 signInPage: github
 dangerouslyAllowSignInWithoutUserInCatalog: true
